@@ -47,7 +47,7 @@
             <a style="font-weight:bold" class="nav-link js-scroll-trigger" href="#about">tech stack</a>
           </li>
           <li class="nav-item">
-            <a style="font-weight:bold" class="nav-link js-scroll-trigger" href="#team">resume</a>
+            <a style="font-weight:bold" data-toggle="modal" style="border:null" class="nav-link" href="#portfolioModal7">resume</a>
           </li>
           <li class="nav-item">
             <a style="font-weight:bold" class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -166,13 +166,13 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link"  data-toggle="modal" href="#portfolioModal5">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fa fa-plus fa-3x"></i>
               </div>
             </div>
-            <img  class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Course Review</h4>
@@ -198,8 +198,10 @@
   </section>
 
   <!-- About -->
-  <!-- <section id="about">
-
+  <!-- <section id="about" style="display:flex;align-items: center; justify-content: center; ">
+    <div style="background-color:grey; height:100px; width: 300px; margin:5px">hey</div>
+    <div style="background-color:grey; height:100px; width: 300px; margin:5px">hey</div>
+    <div style="background-color:grey; height:100px; width: 300px; margin:5px">hey</div>
   </section> -->
 
   <!-- Contact -->
@@ -415,7 +417,7 @@
                   <li>Configured Apollo with react to replace Redux</li>
                   <li>Created JSON-server to test routes</li>
                 </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fa fa-times"></i>
                   Close Project</button>
               </div>
@@ -483,7 +485,7 @@
                 <ul style="text-align: left">
                   <li>Serverless deployment using Fire Base</li>
                   <li>Took pictures at Death Valley</li>
-                                  </ul>
+                </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fa fa-times"></i>
                   Close Project</button>
@@ -494,6 +496,34 @@
       </div>
     </div>
   </div>
+
+  <!-- Resume Modal -->
+  <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/resumeJune.jpg" alt="">
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fa fa-times"></i>
+                  Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
