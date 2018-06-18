@@ -9,6 +9,8 @@
   <meta name="author" content="">
 
   <title>Nicholas H. Fray</title>
+  <link rel="icon" href="favicon.ico">
+
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,6 +24,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
 </head>
 
@@ -44,10 +47,10 @@
             <a style="font-weight:bold" class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a style="font-weight:bold" class="nav-link js-scroll-trigger" href="#about">tech stack</a>
+            <a style="font-weight:bold" class="nav-link js-scroll-trigger" href="#tech">tech stack</a>
           </li>
-          <li class="nav-item">
-            <a style="font-weight:bold" data-toggle="modal" style="border:null" class="nav-link" href="#portfolioModal7">resume</a>
+          <li class="nav-item" style="border:null">
+            <a style="font-weight:bold" data-toggle="modal" class="nav-link" href="#portfolioModal7">resume</a>
           </li>
           <li class="nav-item">
             <a style="font-weight:bold" class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -90,7 +93,7 @@
           <p class="text-muted">I’m Nick Fray, a full stack Software Engineer with extensive experience in JavaScript, using such technologies
             as React, Redux, Node.js, MongoDB, and GraphQL to name a few. I love working in creative team environments and
             building applications that have the potential to effect positive change upon the world. Wow, what a sentence,
-            but a true one. When I’m not building websites i’m happiest reading a good book, camping, or having a coffee
+            but a true one. When I’m not building websites I’m happiest reading a good book, camping, or having a coffee
             with close friends.</p>
         </div>
       </div>
@@ -98,6 +101,8 @@
   </section>
 
   <!-- Portfolio Grid -->
+  <div class="bg-dark">.</div>
+
   <section class="bg-dark" id="portfolio">
     <div class="container">
       <div class="row">
@@ -196,14 +201,118 @@
       </div>
     </div>
   </section>
+  <!-- Tech Stack -->
+  <section class="stackAll" id="tech">
+    <div class="col-lg-12 text-center">
+      <h2 class="section-heading text-uppercase">Tech Stack</h2>
+      <hr style="max-width: 100px;
+      border-width: 2px;
+      border-color: #212529;">
+    </div>
+    <div class="techstack">
+      <div class="cats">
+        <!-- Front End col 1-->
 
-  <!-- About -->
-  <!-- <section id="about" style="display:flex;align-items: center; justify-content: center; ">
-    <div style="background-color:grey; height:100px; width: 300px; margin:5px">hey</div>
-    <div style="background-color:grey; height:100px; width: 300px; margin:5px">hey</div>
-    <div style="background-color:grey; height:100px; width: 300px; margin:5px">hey</div>
-  </section> -->
+        <div class="col">
+          <div class="skill">
+            <img class="img-fluid d-block mx-auto img" src="./img/icons/front-end/react.svg"> React
+          </div>
+          <div class="skill">
+            <img class="img-fluid d-block mx-auto img" src="./img/icons/front-end/wepack.png">Webpack
+          </div>
+          <div class="skill">
+            <img class="img-fluid d-block mx-auto img" src="./img/icons/front-end/angular.jpg">Angular
+          </div>
+          <div class="skill">
+            <img class="img-fluid d-block mx-auto img" src="./img/icons/front-end/redux.png">Redux
 
+          </div>
+        </div>
+
+
+        <!-- Front End col 2-->
+        <div class="col">
+          <div class="skill">
+            <img class="img-fluid d-block mx-auto img" src="./img/icons/front-end/css.svg">CSS
+          </div>
+          <div class="skill">
+            <img class="img-fluid d-block mx-auto img" src="./img/icons/front-end/html.png">HTML 5
+
+          </div>
+          <div class="skill">
+            <img class="img-fluid d-block mx-auto img" src="./img/icons/front-end/d3.png">D3
+          </div>
+          <div class="skill">
+            <img class="img-fluid d-block mx-auto img" src="./img/icons/front-end/jquery.png">Jquery
+          </div>
+        </div>
+      </div>
+      <div class="cats">
+        <!-- Back End col 1 -->
+        <div class="col">
+          <div class="skill">
+            <img class="img-fluid d-block mx-auto img" src="./img/icons/back-end/mongo.png">Mongo DB
+          </div>
+          <div class="skill">
+            <img class="img-fluid d-block mx-auto img" src="./img/icons/back-end/node.jpg">Node JS
+          </div>
+          <div class="skill">
+            <img class="img-fluid d-block mx-auto img" src="./img/icons/back-end/fire.png">Fire Base
+          </div>
+          <div class="skill">
+            <img class="img-fluid d-block mx-auto img" src="./img/icons/back-end/python.png">Python
+          </div>
+        </div>
+        <!-- Back End col 2 -->
+        <div class="col">
+          <div class="skill">
+            <img class="img-fluid d-block mx-auto img" src="./img/icons/back-end/rest.png">Rest
+          </div>
+          <div class="skill">
+            <img class="img-fluid d-block mx-auto img" src="./img/icons/back-end/graphql.png">GraphQL
+          </div>
+          <div class="skill">
+            <img class="img-fluid d-block mx-auto img" src="./img/icons/back-end/post.png">Postman
+          </div>
+          <div class="skill">
+            <img class="img-fluid d-block mx-auto img" src="./img/icons/back-end/aws.svg">AWS
+          </div>
+        </div>
+      </div>
+      <div class="cats">
+        <!-- General col 1 -->
+        <div class="col">
+          <div class="skill">
+            <img class="img-fluid d-block mx-auto img" src="./img/icons/general/agile.png">Agile/Scrum
+          </div>
+          <div class="skill">
+            <img class="img-fluid d-block mx-auto img" src="./img/icons/general/deploy.png">Deployment
+          </div>
+          <div class="skill">
+            <img class="img-fluid d-block mx-auto img" src="./img/icons/general/linux.png">Linux
+          </div>
+          <div class="skill">
+            <img class="img-fluid d-block mx-auto img" src="./img/icons/general/ubuntu.png">Ubuntu
+          </div>
+        </div>
+        <!-- General col 2 -->
+        <div class="col">
+          <div class="skill">
+            <img class="img-fluid d-block mx-auto img" src="./img/icons/general/git.png">Git
+          </div>
+          <div class="skill">
+            <img class="img-fluid d-block mx-auto img" src="./img/icons/general/jest.png">Jest/Enzyme
+          </div>
+          <div class="skill">
+            <img class="img-fluid d-block mx-auto img" src="./img/icons/general/nodejs-icon-vector-logo.jpg">JavaScript
+          </div>
+          <div class="skill">
+            <img class="img-fluid d-block mx-auto img" src="./img/icons/general/enzyme.png">Mocah/Chai
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- Contact -->
   <section id="contact">
     <div class="container">
@@ -511,7 +620,7 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/resumeJune.jpg" alt="">
+                <img style="border:solid 1px grey" class="img-fluid d-block mx-auto" src="img/portfolio/resumeJune.jpg" alt="">
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fa fa-times"></i>
                   Close</button>

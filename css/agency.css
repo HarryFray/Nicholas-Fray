@@ -8,13 +8,6 @@ body {
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-
-#about {
-  background-color:green;
-  height:100px;
-   width:100px;
-}
-
 p {
   line-height: 1.75;
 }
@@ -174,6 +167,10 @@ img::-moz-selection {
     font-size: 1.25em;
     padding: 12px 0;
   }
+}
+
+.nav-link {
+  outline: none;
 }
 
 header.masthead {
@@ -338,7 +335,6 @@ header.masthead .intro-text .intro-heading {
 }
 
 .portfolio-modal .modal-content p.item-intro {
-  
   font-size: 16px;
   font-style: italic;
   margin: 20px 0 30px;
@@ -604,6 +600,66 @@ header.masthead .intro-text .intro-heading {
   margin-top: 0;
 }
 
+.stackAll {
+  padding: 125px;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.techstack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cats {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  margin: 5px;
+  width: 300px;
+  height: 400px;
+}
+
+@media screen and (max-width: 900px) {
+  .cats {
+    flex-direction: column;
+    height: 950px;
+  }
+}
+
+.tech {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  margin: .7vw;
+  height: 400px;
+}
+
+.skill {
+  width: 100px;
+  margin: 5px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.img {
+  height: 50px;
+}
+
 section#contact {
   background-color: #212529;
   background-image: url("../img/map-image.png");
@@ -705,4 +761,3 @@ ul.social-buttons li a {
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
 }
-
