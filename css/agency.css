@@ -645,10 +645,14 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
+  height: 300px;
   background-color: #212529;
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 section#contact .section-heading {
@@ -737,6 +741,12 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 ul.social-buttons li a i {
   margin-top: 20px;
+}
+
+.letsConnect {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 35px;
 }
 
 footer {
